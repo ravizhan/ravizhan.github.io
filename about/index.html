@@ -16,10 +16,13 @@
 
 
 <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/font-awesome@4/css/font-awesome.min.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/fancyapps/fancybox@3/dist/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/pace-js@1/themes/blue/pace-theme-minimal.css">
+  <script src="//cdn.jsdelivr.net/npm/pace-js@1/pace.min.js"></script>
 
 <script id="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"ravizhan.github.io","root":"/","scheme":"Pisces","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
+    var CONFIG = {"hostname":"ravizhan.github.io","root":"/","scheme":"Pisces","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":true,"style":"mac"},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":true,"mediumzoom":false,"lazyload":true,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"manual","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
   <meta name="description" content="额。。。说点什么好呢本人初二，14岁，会python，建站，hack等等（什么都会一点的那种）白羊座男生，典型直男……，单身可撩（想屁吃，有女朋友了）  大概是十岁左右开始接触互联网，从此便彻底迷上了网络和编程以及黑客技术等等当然，前提是我成绩已经够好了没有成绩的保证，一切都是虚的所以，我也许不会花太多的时间在这上面（上学期间最多一周一篇，寒暑假看心情）做这个博客的目的更多的是学习和分享自己的一">
@@ -118,6 +121,7 @@
 
   <div class="site-nav-right">
     <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
     </div>
   </div>
 </div>
@@ -157,11 +161,38 @@
     <a href="/sitemap.xml" rel="section"><i class="fa fa-fw fa-sitemap"></i>站点地图</a>
 
   </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
   </ul>
 </nav>
 
 
 
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result">
+  <div id="no-result">
+    <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
 
 </div>
     </header>
@@ -207,7 +238,7 @@
 <p>额。。。说点什么好呢<br>本人初二，14岁，会python，建站，hack等等（什么都会一点的那种）<br>白羊座男生，典型直男……，<del><strong>单身可撩</strong></del>（想屁吃，有女朋友了）</p>
 </blockquote>
 <p>大概是十岁左右开始接触互联网，从此便彻底迷上了网络和编程以及黑客技术等等<br>当然，前提是我<strong>成绩</strong>已经够好了<br>没有成绩的保证，一切都是虚的<br>所以，我也许不会花太多的时间在这上面（上学期间最多一周一篇，寒暑假看心情）<br>做这个博客的目的更多的是学习和分享自己的一些经验和心得</p>
-<p>马上就要生地中考了(7月20)，在此，祝我自己以及所有初二考生，<strong>生地大捷</strong><br><img src="https://cdn.jsdelivr.net/gh/ravizhan/ravizhan.github.io/about/index/%E5%B0%98%E5%9F%83%E8%90%BD%E5%AE%9A%E4%B9%8B%E5%89%8D%EF%BC%8C%E4%BD%A0%E6%88%91%E7%9A%86%E6%98%AF%E9%BB%91%E9%A9%AC.png" width = "50%" /></p>
+<p>马上就要生地中考了(7月20)，在此，祝我自己以及所有初二考生，<strong>生地大捷</strong><br><img data-src="https://cdn.jsdelivr.net/gh/ravizhan/ravizhan.github.io/about/index/%E5%B0%98%E5%9F%83%E8%90%BD%E5%AE%9A%E4%B9%8B%E5%89%8D%EF%BC%8C%E4%BD%A0%E6%88%91%E7%9A%86%E6%98%AF%E9%BB%91%E9%A9%AC.png" width = "50%" /></p>
 
       </div>
       
@@ -298,6 +329,17 @@
   </div>
 
 
+  <div class="links-of-blogroll motion-element">
+    <div class="links-of-blogroll-title">
+      <i class="fa fa-fw fa-link"></i>
+      Links
+    </div>
+    <ul class="links-of-blogroll-list">
+        <li class="links-of-blogroll-item">
+          <a href="https://ravizhan.github.io/code-examples/" title="https:&#x2F;&#x2F;ravizhan.github.io&#x2F;code-examples&#x2F;">code-examples</a>
+        </li>
+    </ul>
+  </div>
 
       </div>
 
@@ -366,6 +408,9 @@
   
   <script src="//cdn.jsdelivr.net/npm/animejs@3.1.0/lib/anime.min.js"></script>
   <script src="//cdn.jsdelivr.net/gh/theme-next/theme-next-pjax@0/pjax.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
+  <script src="//cdn.jsdelivr.net/gh/fancyapps/fancybox@3/dist/jquery.fancybox.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/lozad@1/dist/lozad.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/velocity-animate@1/velocity.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/velocity-animate@1/velocity.ui.min.js"></script>
 
@@ -455,6 +500,10 @@ window.addEventListener('pjax:success', () => {
 
 
 
+  
+<script src="//cdn.jsdelivr.net/gh/ravizhan/ravizhan.github.io/js/local-search.js"></script>
+
+
 
 
 
@@ -470,6 +519,16 @@ window.addEventListener('pjax:success', () => {
   
 
   
+  <script src="//cdn.jsdelivr.net/npm/quicklink@1/dist/quicklink.umd.js"></script>
+  <script>
+      window.addEventListener('load', () => {
+      quicklink({
+        timeout : 3000,
+        priority: true,
+        ignores : [uri => uri.includes('#'),uri => uri === 'https://ravizhan.github.io/about/',]
+      });
+      });
+  </script>
 
     </div>
 </body>
