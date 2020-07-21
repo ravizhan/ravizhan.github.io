@@ -6,4 +6,41 @@
     <content><![CDATA[<p>hello world!<br>这是第一篇文章</p>
 ]]></content>
   </entry>
+  <entry>
+    <title>luogu-T1</title>
+    <url>/2020/07/21/luogu-T1/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>sublime使用全攻略</title>
+    <url>/2020/07/21/Sublime/</url>
+    <content><![CDATA[<h2 id="下载-amp-安装"><a href="#下载-amp-安装" class="headerlink" title="下载&amp;安装"></a>下载&amp;安装</h2><h3 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h3><p><a href="http://www.sublimetext.cn/" target="_blank" rel="noopener"><strong>官网</strong></a> <a href="https://down.ravi.cool/sublime/" target="_blank" rel="noopener"><strong>我的镜像</strong></a></p>
+<a id="more"></a>
+<h3 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h3><p>有手就行。。。<br>这都不会，那就不用往下看了</p>
+<h2 id="激活"><a href="#激活" class="headerlink" title="激活"></a>激活</h2><p>没激活也能用，但是会不时弹出激活提示<br>本人强迫症，所以👇</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">----- BEGIN LICENSE -----</span><br><span class="line">Member J2TeaM</span><br><span class="line">Single User License</span><br><span class="line">EA7E-1011316</span><br><span class="line">D7DA350E 1B8B0760 972F8B60 F3E64036</span><br><span class="line">B9B4E234 F356F38F 0AD1E3B7 0E9C5FAD</span><br><span class="line">FA0A2ABE 25F65BD8 D51458E5 3923CE80</span><br><span class="line">87428428 79079A01 AA69F319 A1AF29A4</span><br><span class="line">A684C2DC 0B1583D4 19CBD290 217618CD</span><br><span class="line">5653E0A0 BACE3948 BB2EE45E 422D2C87</span><br><span class="line">DD9AF44B 99C49590 D2DBDEE1 75860FD2</span><br><span class="line">8C8BB2AD B2ECE5A4 EFC08AF2 25A9B864</span><br><span class="line">------ END LICENSE ------​</span><br></pre></td></tr></table></figure>
+<img data-src="../markdown/license.gif" width = "60%" />
+## 设置中文/汉化
+
+<p>安装插件控制面板<code>Tools -&gt; Install Package Control</code><br>安装有点慢，在左下角有提示<br><img data-src="../markdown/1595324740671.png" width = "60%" /><br>点击<code>Preferences -&gt; Package Control</code><br><img data-src="../markdown/pc.jpg" width = "60%" /><br>在弹出的窗口中点击<code>Package Control: Install Package</code><br><img data-src="../markdown/ip.jpg" width = "60%" /><br>再在弹出的窗口中，输入<code>clz</code>，点击<code>ChineseLocalizations</code><br><img data-src="../markdown/clz.jpg" width = "60%" /><br>等待安装完成，<strong>大功告成</strong></p>
+<p>完整演示👇<br><img data-src="../markdown/all.gif" width = "60%" /></p>
+<h2 id="编写Markdown设置"><a href="#编写Markdown设置" class="headerlink" title="编写Markdown设置"></a>编写Markdown设置</h2><p>未完待续……</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Sublime使用全攻略</title>
+    <url>/2020/07/21/markdown/</url>
+    <content><![CDATA[<h2 id="下载-amp-安装"><a href="#下载-amp-安装" class="headerlink" title="下载&amp;安装"></a>下载&amp;安装</h2><h3 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h3><p><a href="http://www.sublimetext.cn/" target="_blank" rel="noopener"><strong>官网</strong></a> <a href="https://down.ravi.cool/sublime/" target="_blank" rel="noopener"><strong>我的镜像</strong></a></p>
+<a id="more"></a>
+<h3 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h3><p>有手就行。。。<br>这都不会，那就不用往下看了</p>
+<h2 id="激活"><a href="#激活" class="headerlink" title="激活"></a>激活</h2><p>没激活也能用，但是会不时弹出激活提示<br>本人强迫症，所以👇</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">----- BEGIN LICENSE -----</span><br><span class="line">Member J2TeaM</span><br><span class="line">Single User License</span><br><span class="line">EA7E-1011316</span><br><span class="line">D7DA350E 1B8B0760 972F8B60 F3E64036</span><br><span class="line">B9B4E234 F356F38F 0AD1E3B7 0E9C5FAD</span><br><span class="line">FA0A2ABE 25F65BD8 D51458E5 3923CE80</span><br><span class="line">87428428 79079A01 AA69F319 A1AF29A4</span><br><span class="line">A684C2DC 0B1583D4 19CBD290 217618CD</span><br><span class="line">5653E0A0 BACE3948 BB2EE45E 422D2C87</span><br><span class="line">DD9AF44B 99C49590 D2DBDEE1 75860FD2</span><br><span class="line">8C8BB2AD B2ECE5A4 EFC08AF2 25A9B864</span><br><span class="line">------ END LICENSE ------​</span><br></pre></td></tr></table></figure>
+<img data-src="../markdown/license.gif" width = "60%" />
+## 设置中文/汉化
+
+<p>安装插件控制面板<code>Tools -&gt; Install Package Control</code><br>安装有点慢，在左下角有提示<br><img data-src="../markdown/1595324740671.png" width = "60%" /><br>点击<code>Preferences -&gt; Package Control</code><br><img data-src="../markdown/pc.jpg" width = "60%" /><br>在弹出的窗口中点击<code>Package Control: Install Package</code><br><img data-src="../markdown/ip.jpg" width = "60%" /><br>再在弹出的窗口中，输入<code>clz</code>，点击<code>ChineseLocalizations</code><br><img data-src="../markdown/clz.jpg" width = "60%" /><br>等待安装完成，<strong>大功告成</strong></p>
+<p>完整演示👇<br><img data-src="../markdown/all.gif" width = "60%" /></p>
+<h2 id="编写Markdown设置"><a href="#编写Markdown设置" class="headerlink" title="编写Markdown设置"></a>编写Markdown设置</h2><p>未完待续……</p>
+]]></content>
+  </entry>
 </search>
