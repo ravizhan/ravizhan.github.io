@@ -7,11 +7,6 @@
 ]]></content>
   </entry>
   <entry>
-    <title>luogu-T1</title>
-    <url>/posts/luogu-T1.html</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
     <title>Sublime使用全攻略</title>
     <url>/posts/Sublime.html</url>
     <content><![CDATA[<h2 id="下载-amp-安装"><a href="#下载-amp-安装" class="headerlink" title="下载&amp;安装"></a>下载&amp;安装</h2><h3 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h3><p><a href="http://www.sublimetext.cn/" target="_blank" rel="noopener"><strong>官网</strong></a> <a href="https://down.ravi.cool/sublime/" target="_blank" rel="noopener"><strong>我的镜像</strong></a></p>
@@ -25,5 +20,73 @@
 <p>完整演示👇<br><img data-src="https://cdn.jsdelivr.net/gh/ravizhan/ravizhan.github.io@master/posts/Sublime/all.gif" width = "60%" /></p>
 <h2 id="编写Markdown设置"><a href="#编写Markdown设置" class="headerlink" title="编写Markdown设置"></a>编写Markdown设置</h2><p>未完待续……</p>
 ]]></content>
+      <tags>
+        <tag>tools</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>luogu-T100</title>
+    <url>/posts/luogu-T100.html</url>
+    <content><![CDATA[<h1 id="T100-【入门1】顺序结构"><a href="#T100-【入门1】顺序结构" class="headerlink" title="T100 -【入门1】顺序结构"></a>T100 -【入门1】顺序结构</h1><p><a href="https://www.luogu.com.cn/training/100" target="_blank" rel="noopener">https://www.luogu.com.cn/training/100</a></p>
+<blockquote>
+<p>注：本文代码均为<strong>python</strong><br>本文代码均为自己写的，不存在抄袭<br>本文所有代码仅供参考，抄袭后果自负</p>
+</blockquote>
+<h2 id="P1001-A-B-Problem"><a href="#P1001-A-B-Problem" class="headerlink" title="P1001     A+B Problem"></a>P1001     A+B Problem</h2><blockquote>
+<p><a href="https://www.luogu.com.cn/problem/P1001" target="_blank" rel="noopener">https://www.luogu.com.cn/problem/P1001</a></p>
+</blockquote>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">s = input().split()</span><br><span class="line">print(int(s[<span class="number">0</span>]) + int(s[<span class="number">1</span>]))</span><br></pre></td></tr></table></figure>
+
+<h2 id="P1000-超级玛丽游戏"><a href="#P1000-超级玛丽游戏" class="headerlink" title="P1000 超级玛丽游戏"></a>P1000 超级玛丽游戏</h2><blockquote>
+<p><a href="https://www.luogu.com.cn/problem/P1000" target="_blank" rel="noopener">https://www.luogu.com.cn/problem/P1000</a></p>
+</blockquote>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">print(<span class="string">'''                ********</span></span><br><span class="line"><span class="string">               ************</span></span><br><span class="line"><span class="string">               ####....#.</span></span><br><span class="line"><span class="string">             #..###.....##....</span></span><br><span class="line"><span class="string">             ###.......######              ###            ###</span></span><br><span class="line"><span class="string">                ...........               #...#          #...#</span></span><br><span class="line"><span class="string">               ##*#######                 #.#.#          #.#.#</span></span><br><span class="line"><span class="string">            ####*******######             #.#.#          #.#.#</span></span><br><span class="line"><span class="string">           ...#***.****.*###....          #...#          #...#</span></span><br><span class="line"><span class="string">           ....**********##.....           ###            ###</span></span><br><span class="line"><span class="string">           ....****    *****....</span></span><br><span class="line"><span class="string">             ####        ####</span></span><br><span class="line"><span class="string">           ######        ######</span></span><br><span class="line"><span class="string">##############################################################</span></span><br><span class="line"><span class="string">#...#......#.##...#......#.##...#......#.##------------------#</span></span><br><span class="line"><span class="string">###########################################------------------#</span></span><br><span class="line"><span class="string">#..#....#....##..#....#....##..#....#....#####################</span></span><br><span class="line"><span class="string">##########################################    #----------#</span></span><br><span class="line"><span class="string">#.....#......##.....#......##.....#......#    #----------#</span></span><br><span class="line"><span class="string">##########################################    #----------#</span></span><br><span class="line"><span class="string">#.#..#....#..##.#..#....#..##.#..#....#..#    #----------#</span></span><br><span class="line"><span class="string">##########################################    ############'''</span>)</span><br></pre></td></tr></table></figure>
+<p>这道题要特别注意<strong>格式</strong>(我试了五六次才过。。。)</p>
+<h2 id="P5703-【深基2-例5】苹果采购"><a href="#P5703-【深基2-例5】苹果采购" class="headerlink" title="P5703 【深基2.例5】苹果采购"></a>P5703 【深基2.例5】苹果采购</h2><blockquote>
+<p><a href="https://www.luogu.com.cn/problem/P5703" target="_blank" rel="noopener">https://www.luogu.com.cn/problem/P5703</a></p>
+</blockquote>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> re</span><br><span class="line">n = input(<span class="string">''</span>).split(<span class="string">' '</span>)</span><br><span class="line">pattern = re.compile(<span class="string">r'\.'</span>)</span><br><span class="line"><span class="keyword">if</span> re.search(pattern,n[<span class="number">0</span>]) <span class="keyword">or</span> re.search(pattern,n[<span class="number">1</span>]):</span><br><span class="line">    print(<span class="string">'only support the number that without "."'</span>)</span><br><span class="line"><span class="keyword">elif</span> int(n[<span class="number">0</span>])&lt;<span class="number">0</span> <span class="keyword">or</span> int(n[<span class="number">1</span>])&lt;<span class="number">0</span>:</span><br><span class="line">    print(<span class="string">'only support the Non-negative integer'</span>)</span><br><span class="line"><span class="keyword">else</span>:</span><br><span class="line">    res = int(n[<span class="number">0</span>]) * int(n[<span class="number">1</span>])</span><br><span class="line">    print(res)</span><br></pre></td></tr></table></figure>
+<h2 id="P5704-【深基2-例6】字母转换"><a href="#P5704-【深基2-例6】字母转换" class="headerlink" title="P5704 【深基2.例6】字母转换"></a>P5704 【深基2.例6】字母转换</h2><blockquote>
+<p><a href="https://www.luogu.com.cn/problem/P5704" target="_blank" rel="noopener">https://www.luogu.com.cn/problem/P5704</a></p>
+</blockquote>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">cloum = input(<span class="string">''</span>)</span><br><span class="line">print(cloum.upper())</span><br></pre></td></tr></table></figure>
+<h2 id="P5705-【深基2-例7】数字反转"><a href="#P5705-【深基2-例7】数字反转" class="headerlink" title="P5705 【深基2.例7】数字反转"></a>P5705 【深基2.例7】数字反转</h2><blockquote>
+<p> <a href="https://www.luogu.com.cn/problem/P5705" target="_blank" rel="noopener">https://www.luogu.com.cn/problem/P5705</a></p>
+</blockquote>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">in_num = input(<span class="string">''</span>)</span><br><span class="line">print(float(<span class="string">''</span>.join(reversed(in_num))))</span><br></pre></td></tr></table></figure>
+<h2 id="P5706-【深基2-例8】再分肥宅水"><a href="#P5706-【深基2-例8】再分肥宅水" class="headerlink" title="P5706 【深基2.例8】再分肥宅水"></a>P5706 【深基2.例8】再分肥宅水</h2><blockquote>
+<p> <a href="https://www.luogu.com.cn/problem/P5706" target="_blank" rel="noopener">https://www.luogu.com.cn/problem/P5706</a></p>
+</blockquote>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">in_num = input(<span class="string">''</span>).split()</span><br><span class="line">pre_student_cups = int(in_num[<span class="number">1</span>])*<span class="number">2</span></span><br><span class="line">pre_student = float(in_num[<span class="number">0</span>])/int(in_num[<span class="number">1</span>])</span><br><span class="line">print(<span class="string">'%.3f\n%s'</span> % (pre_student,str(pre_student_cups)))</span><br></pre></td></tr></table></figure>
+<h2 id="P1425-小鱼的游泳时间"><a href="#P1425-小鱼的游泳时间" class="headerlink" title="P1425 小鱼的游泳时间"></a>P1425 小鱼的游泳时间</h2><blockquote>
+<p> <a href="https://www.luogu.com.cn/problem/P1425" target="_blank" rel="noopener">https://www.luogu.com.cn/problem/P1425</a></p>
+</blockquote>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">start_time = input(<span class="string">''</span>).split()</span><br><span class="line">e = int(start_time[<span class="number">2</span>])-int(start_time[<span class="number">0</span>])</span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> int(start_time[<span class="number">3</span>])&lt;int(start_time[<span class="number">1</span>]):</span><br><span class="line">    e -= <span class="number">1</span></span><br><span class="line">    f = int(start_time[<span class="number">3</span>])+<span class="number">60</span>-int(start_time[<span class="number">1</span>])</span><br><span class="line"><span class="keyword">else</span>:</span><br><span class="line">    f = int(start_time[<span class="number">3</span>]) - int(start_time[<span class="number">1</span>])</span><br><span class="line"></span><br><span class="line">print(str(e)+<span class="string">' '</span>+str(f))</span><br></pre></td></tr></table></figure>
+<h2 id="P2433-【深基1-2】小学数学-N-合一"><a href="#P2433-【深基1-2】小学数学-N-合一" class="headerlink" title="P2433 【深基1-2】小学数学 N 合一"></a>P2433 【深基1-2】小学数学 N 合一</h2><blockquote>
+<p><a href="https://www.luogu.com.cn/problem/P2433" target="_blank" rel="noopener">https://www.luogu.com.cn/problem/P2433</a></p>
+</blockquote>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">莫得(还在解题中...)</span><br></pre></td></tr></table></figure>
+<h2 id="P5708-【深基2-习2】三角形面积"><a href="#P5708-【深基2-习2】三角形面积" class="headerlink" title="P5708 【深基2.习2】三角形面积"></a>P5708 【深基2.习2】三角形面积</h2><blockquote>
+<p><a href="https://www.luogu.com.cn/problem/P5708" target="_blank" rel="noopener">https://www.luogu.com.cn/problem/P5708</a></p>
+</blockquote>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">nums = input(<span class="string">''</span>).split(<span class="string">' '</span>)</span><br><span class="line">s = <span class="number">0.0</span></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> range(<span class="number">0</span>, len(nums)):</span><br><span class="line">    nums[i] = float(nums[i])</span><br><span class="line">    s = s+nums[i]</span><br><span class="line">s = s/<span class="number">2</span></span><br><span class="line">a,b,c = nums[<span class="number">0</span>],nums[<span class="number">1</span>],nums[<span class="number">2</span>]</span><br><span class="line">area = (s*(s-a)*(s-b)*(s-c)) ** <span class="number">0.5</span></span><br><span class="line">print(round(area,<span class="number">1</span>))</span><br></pre></td></tr></table></figure>
+<h2 id="P1421-小玉买文具"><a href="#P1421-小玉买文具" class="headerlink" title="P1421 小玉买文具"></a>P1421 小玉买文具</h2><blockquote>
+<p><a href="https://www.luogu.com.cn/problem/P1421" target="_blank" rel="noopener">https://www.luogu.com.cn/problem/P1421</a></p>
+</blockquote>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">money = input(<span class="string">''</span>).split(<span class="string">' '</span>)</span><br><span class="line">a,b = int(money[<span class="number">0</span>]),int(money[<span class="number">1</span>])</span><br><span class="line">res = (<span class="number">10</span>*a+b)/<span class="number">19</span></span><br><span class="line">print(int(res))</span><br></pre></td></tr></table></figure>
+<h2 id="P5709-【深基2-习6】Apples-Prologue"><a href="#P5709-【深基2-习6】Apples-Prologue" class="headerlink" title="P5709 【深基2.习6】Apples Prologue"></a>P5709 【深基2.习6】Apples Prologue</h2><blockquote>
+<p><a href="https://www.luogu.com.cn/problem/P5709" target="_blank" rel="noopener">https://www.luogu.com.cn/problem/P5709</a></p>
+</blockquote>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">nums = input(<span class="string">''</span>).split(<span class="string">' '</span>)</span><br><span class="line">m,t,s = int(nums[<span class="number">0</span>]),int(nums[<span class="number">1</span>]),int(nums[<span class="number">2</span>])</span><br><span class="line">res = int(m-(s/t))</span><br><span class="line"><span class="keyword">if</span> res &lt; <span class="number">0</span>:</span><br><span class="line">    res = <span class="number">0</span></span><br><span class="line">print(res)</span><br></pre></td></tr></table></figure>
+<h2 id="P2181-对角线"><a href="#P2181-对角线" class="headerlink" title="P2181 对角线"></a>P2181 对角线</h2><blockquote>
+<p><a href="https://www.luogu.com.cn/problem/P2181" target="_blank" rel="noopener">https://www.luogu.com.cn/problem/P2181</a></p>
+</blockquote>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">还是莫得...</span><br></pre></td></tr></table></figure>
+
+
+<h1 id="作者的话"><a href="#作者的话" class="headerlink" title="作者的话"></a>作者的话</h1><p>emmm….. 注释什么的，有时间再写吧<br>有不明白的可以问我</p>
+]]></content>
+      <tags>
+        <tag>洛谷</tag>
+      </tags>
   </entry>
 </search>
