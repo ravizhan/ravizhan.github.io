@@ -2,18 +2,18 @@
 <search>
   <entry>
     <title>hello world</title>
-    <url>/2020/07/07/hello-world/</url>
+    <url>/hello-world.html</url>
     <content><![CDATA[<p>hello world!<br>这是第一篇文章</p>
 ]]></content>
   </entry>
   <entry>
     <title>luogu-T1</title>
-    <url>/2020/07/21/luogu-T1/</url>
+    <url>/luogu-T1.html</url>
     <content><![CDATA[]]></content>
   </entry>
   <entry>
     <title>Sublime使用全攻略</title>
-    <url>/2020/07/21/Sublime/</url>
+    <url>/Sublime.html</url>
     <content><![CDATA[<h2 id="下载-amp-安装"><a href="#下载-amp-安装" class="headerlink" title="下载&amp;安装"></a>下载&amp;安装</h2><h3 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h3><p><a href="http://www.sublimetext.cn/" target="_blank" rel="noopener"><strong>官网</strong></a> <a href="https://down.ravi.cool/sublime/" target="_blank" rel="noopener"><strong>我的镜像</strong></a></p>
 <a id="more"></a>
 <h3 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h3><p>有手就行。。。<br>这都不会，那就不用往下看了</p>
