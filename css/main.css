@@ -1217,7 +1217,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #ff4546;
+  background: #2209da;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -1411,7 +1411,7 @@ pre .javascript .function {
   font-size: 0.8125em;
 }
 .footer {
-  color: #999;
+  color: #66b1ff;
   font-size: 0.875em;
   padding: 20px 0;
 }
@@ -2196,10 +2196,6 @@ body {
   -o-background-size: cover;
   -moz-background-size: cover;
   -ms-background-size: cover;
-/*这是设置底部文字, 看个人需要修改*/
-}
-body #footer > div > div {
-  color: #66b1ff;
 }
 .header {
   margin: 0 auto;
