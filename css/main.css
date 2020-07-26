@@ -1217,7 +1217,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #6cf505;
+  background: #ff4546;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2199,7 +2199,7 @@ body {
 /*这是设置底部文字, 看个人需要修改*/
 }
 body #footer > div > div {
-  color: #de5e5e;
+  color: #66b1ff;
 }
 .header {
   margin: 0 auto;
