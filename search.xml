@@ -13,6 +13,11 @@
       </tags>
   </entry>
   <entry>
+    <title>1</title>
+    <url>/posts/%E5%85%A8%E7%BD%91%E9%9F%B3%E4%B9%90%E8%A7%A3%E6%9E%90%E7%B3%BB%E5%88%97(1)---qq%E9%9F%B3%E4%B9%90%E8%A7%A3%E6%9E%90.html</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
     <title>luogu-T100</title>
     <url>/posts/luogu-T100.html</url>
     <content><![CDATA[<h1 id="T100-【入门1】顺序结构"><a href="#T100-【入门1】顺序结构" class="headerlink" title="T100 -【入门1】顺序结构"></a>T100 -【入门1】顺序结构</h1><p><a href="https://www.luogu.com.cn/training/100" target="_blank" rel="noopener">https://www.luogu.com.cn/training/100</a></p>
@@ -89,7 +94,35 @@
 
 <h2 id="设置中文-汉化"><a href="#设置中文-汉化" class="headerlink" title="设置中文(汉化)"></a>设置中文(汉化)</h2><p>安装插件控制面板<code>Tools -&gt; Install Package Control</code><br>安装有点慢，在左下角有提示<br><img data-src="https://cdn.jsdelivr.net/gh/ravizhan/ravizhan.github.io@master/posts/Sublime/ipc.jpg" width = "60%" /><br>点击<code>Preferences -&gt; Package Control</code><br><img data-src="https://cdn.jsdelivr.net/gh/ravizhan/ravizhan.github.io@master/posts/Sublime/pc.jpg" width = "60%" /><br>在弹出的窗口中点击<code>Package Control: Install Package</code><br><img data-src="https://cdn.jsdelivr.net/gh/ravizhan/ravizhan.github.io@master/posts/Sublime/ip.jpg" width = "60%" /><br>再在弹出的窗口中，输入<code>clz</code>，点击<code>ChineseLocalizations</code><br><img data-src="https://cdn.jsdelivr.net/gh/ravizhan/ravizhan.github.io@master/posts/Sublime/clz.jpg" width = "60%" /><br>等待安装完成，<strong>大功告成</strong></p>
 <p>完整演示👇<br><img data-src="https://cdn.jsdelivr.net/gh/ravizhan/ravizhan.github.io@master/posts/Sublime/all.gif" width = "60%" /></p>
-<h2 id="编写Markdown设置"><a href="#编写Markdown设置" class="headerlink" title="编写Markdown设置"></a>编写Markdown设置</h2><p>未完待续……</p>
+<h2 id="编写Markdown设置"><a href="#编写Markdown设置" class="headerlink" title="编写Markdown设置"></a>编写Markdown设置</h2><h3 id="MarkdownPreview"><a href="#MarkdownPreview" class="headerlink" title="MarkdownPreview"></a>MarkdownPreview</h3><p>按照上面的方法，在<code>Package Control: Install Package</code>中安装<code>MarkdownPreview</code></p>
+<h4 id="用浏览器预览"><a href="#用浏览器预览" class="headerlink" title="用浏览器预览"></a>用浏览器预览</h4><h5 id="常规方法"><a href="#常规方法" class="headerlink" title="常规方法"></a>常规方法</h5><p>1.组合键 <code>Ctrl+Shift+P</code> 调出命令面板<br>2.输入mdp找到并选中Markdown Preview： Preview in Browser<br>3.出现三个个选项：<code>github</code> <code>gitlab</code> <code>markdown</code> 任选其一即可<br><img data-src="https://cdn.jsdelivr.net/gh/ravizhan/ravizhan.github.io@master/posts/Sublime/mdp.jpg" width = "60%" /><br>4.默认浏览器中显示预览结果</p>
+<h5 id="用快捷键打开"><a href="#用快捷键打开" class="headerlink" title="用快捷键打开"></a>用快捷键打开</h5><p>设置快捷键：打开<code>首选项 -&gt; 快捷键设置</code><br>在右边的中括号内输入</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#123; &quot;keys&quot;: [&quot;alt+m&quot;],</span><br><span class="line">&quot;command&quot;: &quot;markdown_preview&quot;,</span><br><span class="line">&quot;args&quot;: &#123;&quot;target&quot;: &quot;browser&quot;, &quot;parser&quot;:&quot;markdown&quot;&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p><code>alt+m</code> 可设置为自己喜欢的按键<br><code>markdown</code> 也可设置为 <code>github</code>或<code>gitlab</code></p>
+</blockquote>
+<p>然后按下<code>alt+m</code>就可以在默认浏览器里查看预览啦</p>
+<blockquote>
+<p>但是上面的方法都很繁琐，然而像我这种懒人怎么会用呢(嘿嘿嘿)<br>所以就有了下面的<code>LiveReload</code></p>
+</blockquote>
+<h3 id="LiveReload"><a href="#LiveReload" class="headerlink" title="LiveReload"></a>LiveReload</h3><p>一样的在<code>Package Control</code>中安装<code>LiveReload</code><br>打开配置文件 <code>首选项-&gt; Package Settings -&gt; Markdown Preview -&gt; Settings</code></p>
+<img data-src="https://cdn.jsdelivr.net/gh/ravizhan/ravizhan.github.io@master/posts/Sublime/markdown-setting.jpg" width = "60%" />
+在右边加一条下面这个,保存后重启Sublime
+> `"enable_autoreload": true`
+
+<p>然后<code>Ctrl+Shift+P</code> 输入<code>LiveReload: Enable/disable plug-ins</code>,<br>回车, 选择 <code>Simple Reload with delay (400ms)</code>或者<code>Simple Reload</code>，<br>两者的区别在于后者没有延迟。<br><img data-src="https://cdn.jsdelivr.net/gh/ravizhan/ravizhan.github.io@master/posts/Sublime/reload.jpg" width = "60%" /></p>
+<blockquote>
+<p>这里又有一个问题了，每次都要<code>Ctrl+S</code>保存，岂不是很麻烦<br>所以就有了自动保存功能</p>
+</blockquote>
+<h3 id="自动保存"><a href="#自动保存" class="headerlink" title="自动保存"></a>自动保存</h3><p>打开<code>首选项 -&gt; 设置</code></p>
+<img data-src="https://cdn.jsdelivr.net/gh/ravizhan/ravizhan.github.io@master/posts/Sublime/setting.jpg" width = "60%" />
+在右边添加`"save_on_focus_lost": true`
+> 注意：要先在上面的中括号后面加上逗号
+
+<img data-src="https://cdn.jsdelivr.net/gh/ravizhan/ravizhan.github.io@master/posts/Sublime/add.jpg" width = "60%" />
+这样当你的鼠标点击Sublime以外的地方，文件就会自动保存啦
+
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>这篇文章就先写到这，希望对你们能有所帮助</p>
 ]]></content>
       <tags>
         <tag>tools</tag>

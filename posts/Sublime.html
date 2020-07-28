@@ -38,8 +38,13 @@
 <meta property="og:image" content="https://cdn.jsdelivr.net/gh/ravizhan/ravizhan.github.io@master/posts/Sublime/ip.jpg">
 <meta property="og:image" content="https://cdn.jsdelivr.net/gh/ravizhan/ravizhan.github.io@master/posts/Sublime/clz.jpg">
 <meta property="og:image" content="https://cdn.jsdelivr.net/gh/ravizhan/ravizhan.github.io@master/posts/Sublime/all.gif">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/ravizhan/ravizhan.github.io@master/posts/Sublime/mdp.jpg">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/ravizhan/ravizhan.github.io@master/posts/Sublime/markdown-setting.jpg">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/ravizhan/ravizhan.github.io@master/posts/Sublime/reload.jpg">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/ravizhan/ravizhan.github.io@master/posts/Sublime/setting.jpg">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/ravizhan/ravizhan.github.io@master/posts/Sublime/add.jpg">
 <meta property="article:published_time" content="2020-07-21T10:30:00.000Z">
-<meta property="article:modified_time" content="2020-07-23T11:56:21.615Z">
+<meta property="article:modified_time" content="2020-07-28T07:58:21.040Z">
 <meta property="article:author" content="Ravi">
 <meta property="article:tag" content="sublime">
 <meta property="article:tag" content="sublime text3">
@@ -244,7 +249,7 @@
                   <i class="fa fa-calendar-check-o"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2020-07-23 19:56:21" itemprop="dateModified" datetime="2020-07-23T19:56:21+08:00">2020-07-23</time>
+                <time title="修改时间：2020-07-28 15:58:21" itemprop="dateModified" datetime="2020-07-28T15:58:21+08:00">2020-07-28</time>
               </span>
 
           
@@ -274,7 +279,7 @@
                 <i class="fa fa-file-word-o"></i>
               </span>
                 <span class="post-meta-item-text">本文字数：</span>
-              <span>630</span>
+              <span>1.6k</span>
             </span>
             <span class="post-meta-item" title="阅读时长">
               <span class="post-meta-item-icon">
@@ -303,7 +308,35 @@
 
 <h2 id="设置中文-汉化"><a href="#设置中文-汉化" class="headerlink" title="设置中文(汉化)"></a>设置中文(汉化)</h2><p>安装插件控制面板<code>Tools -&gt; Install Package Control</code><br>安装有点慢，在左下角有提示<br><img data-src="https://cdn.jsdelivr.net/gh/ravizhan/ravizhan.github.io@master/posts/Sublime/ipc.jpg" width = "60%" /><br>点击<code>Preferences -&gt; Package Control</code><br><img data-src="https://cdn.jsdelivr.net/gh/ravizhan/ravizhan.github.io@master/posts/Sublime/pc.jpg" width = "60%" /><br>在弹出的窗口中点击<code>Package Control: Install Package</code><br><img data-src="https://cdn.jsdelivr.net/gh/ravizhan/ravizhan.github.io@master/posts/Sublime/ip.jpg" width = "60%" /><br>再在弹出的窗口中，输入<code>clz</code>，点击<code>ChineseLocalizations</code><br><img data-src="https://cdn.jsdelivr.net/gh/ravizhan/ravizhan.github.io@master/posts/Sublime/clz.jpg" width = "60%" /><br>等待安装完成，<strong>大功告成</strong></p>
 <p>完整演示👇<br><img data-src="https://cdn.jsdelivr.net/gh/ravizhan/ravizhan.github.io@master/posts/Sublime/all.gif" width = "60%" /></p>
-<h2 id="编写Markdown设置"><a href="#编写Markdown设置" class="headerlink" title="编写Markdown设置"></a>编写Markdown设置</h2><p>未完待续……</p>
+<h2 id="编写Markdown设置"><a href="#编写Markdown设置" class="headerlink" title="编写Markdown设置"></a>编写Markdown设置</h2><h3 id="MarkdownPreview"><a href="#MarkdownPreview" class="headerlink" title="MarkdownPreview"></a>MarkdownPreview</h3><p>按照上面的方法，在<code>Package Control: Install Package</code>中安装<code>MarkdownPreview</code></p>
+<h4 id="用浏览器预览"><a href="#用浏览器预览" class="headerlink" title="用浏览器预览"></a>用浏览器预览</h4><h5 id="常规方法"><a href="#常规方法" class="headerlink" title="常规方法"></a>常规方法</h5><p>1.组合键 <code>Ctrl+Shift+P</code> 调出命令面板<br>2.输入mdp找到并选中Markdown Preview： Preview in Browser<br>3.出现三个个选项：<code>github</code> <code>gitlab</code> <code>markdown</code> 任选其一即可<br><img data-src="https://cdn.jsdelivr.net/gh/ravizhan/ravizhan.github.io@master/posts/Sublime/mdp.jpg" width = "60%" /><br>4.默认浏览器中显示预览结果</p>
+<h5 id="用快捷键打开"><a href="#用快捷键打开" class="headerlink" title="用快捷键打开"></a>用快捷键打开</h5><p>设置快捷键：打开<code>首选项 -&gt; 快捷键设置</code><br>在右边的中括号内输入</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&#123; &quot;keys&quot;: [&quot;alt+m&quot;],</span><br><span class="line">&quot;command&quot;: &quot;markdown_preview&quot;,</span><br><span class="line">&quot;args&quot;: &#123;&quot;target&quot;: &quot;browser&quot;, &quot;parser&quot;:&quot;markdown&quot;&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p><code>alt+m</code> 可设置为自己喜欢的按键<br><code>markdown</code> 也可设置为 <code>github</code>或<code>gitlab</code></p>
+</blockquote>
+<p>然后按下<code>alt+m</code>就可以在默认浏览器里查看预览啦</p>
+<blockquote>
+<p>但是上面的方法都很繁琐，然而像我这种懒人怎么会用呢(嘿嘿嘿)<br>所以就有了下面的<code>LiveReload</code></p>
+</blockquote>
+<h3 id="LiveReload"><a href="#LiveReload" class="headerlink" title="LiveReload"></a>LiveReload</h3><p>一样的在<code>Package Control</code>中安装<code>LiveReload</code><br>打开配置文件 <code>首选项-&gt; Package Settings -&gt; Markdown Preview -&gt; Settings</code></p>
+<img data-src="https://cdn.jsdelivr.net/gh/ravizhan/ravizhan.github.io@master/posts/Sublime/markdown-setting.jpg" width = "60%" />
+在右边加一条下面这个,保存后重启Sublime
+> `"enable_autoreload": true`
+
+<p>然后<code>Ctrl+Shift+P</code> 输入<code>LiveReload: Enable/disable plug-ins</code>,<br>回车, 选择 <code>Simple Reload with delay (400ms)</code>或者<code>Simple Reload</code>，<br>两者的区别在于后者没有延迟。<br><img data-src="https://cdn.jsdelivr.net/gh/ravizhan/ravizhan.github.io@master/posts/Sublime/reload.jpg" width = "60%" /></p>
+<blockquote>
+<p>这里又有一个问题了，每次都要<code>Ctrl+S</code>保存，岂不是很麻烦<br>所以就有了自动保存功能</p>
+</blockquote>
+<h3 id="自动保存"><a href="#自动保存" class="headerlink" title="自动保存"></a>自动保存</h3><p>打开<code>首选项 -&gt; 设置</code></p>
+<img data-src="https://cdn.jsdelivr.net/gh/ravizhan/ravizhan.github.io@master/posts/Sublime/setting.jpg" width = "60%" />
+在右边添加`"save_on_focus_lost": true`
+> 注意：要先在上面的中括号后面加上逗号
+
+<img data-src="https://cdn.jsdelivr.net/gh/ravizhan/ravizhan.github.io@master/posts/Sublime/add.jpg" width = "60%" />
+这样当你的鼠标点击Sublime以外的地方，文件就会自动保存啦
+
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>这篇文章就先写到这，希望对你们能有所帮助</p>
 
     </div>
 
@@ -405,7 +438,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#下载-amp-安装"><span class="nav-number">1.</span> <span class="nav-text">下载&amp;安装</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#下载"><span class="nav-number">1.1.</span> <span class="nav-text">下载</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#安装"><span class="nav-number">1.2.</span> <span class="nav-text">安装</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#激活"><span class="nav-number">2.</span> <span class="nav-text">激活</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#设置中文-汉化"><span class="nav-number">3.</span> <span class="nav-text">设置中文(汉化)</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#编写Markdown设置"><span class="nav-number">4.</span> <span class="nav-text">编写Markdown设置</span></a></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#下载-amp-安装"><span class="nav-number">1.</span> <span class="nav-text">下载&amp;安装</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#下载"><span class="nav-number">1.1.</span> <span class="nav-text">下载</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#安装"><span class="nav-number">1.2.</span> <span class="nav-text">安装</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#激活"><span class="nav-number">2.</span> <span class="nav-text">激活</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#设置中文-汉化"><span class="nav-number">3.</span> <span class="nav-text">设置中文(汉化)</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#编写Markdown设置"><span class="nav-number">4.</span> <span class="nav-text">编写Markdown设置</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#MarkdownPreview"><span class="nav-number">4.1.</span> <span class="nav-text">MarkdownPreview</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#用浏览器预览"><span class="nav-number">4.1.1.</span> <span class="nav-text">用浏览器预览</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#常规方法"><span class="nav-number">4.1.1.1.</span> <span class="nav-text">常规方法</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#用快捷键打开"><span class="nav-number">4.1.1.2.</span> <span class="nav-text">用快捷键打开</span></a></li></ol></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#LiveReload"><span class="nav-number">4.2.</span> <span class="nav-text">LiveReload</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#自动保存"><span class="nav-number">4.3.</span> <span class="nav-text">自动保存</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#总结"><span class="nav-number">5.</span> <span class="nav-text">总结</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -419,7 +452,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">4</span>
+          <span class="site-state-item-count">5</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -478,13 +511,13 @@
       <i class="fa fa-area-chart"></i>
     </span>
       <span class="post-meta-item-text">站点总字数：</span>
-    <span title="站点总字数">4k</span>
+    <span title="站点总字数">5k</span>
     <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span class="post-meta-item-text">站点阅读时长 &asymp;</span>
-    <span title="站点阅读时长">3 分钟</span>
+    <span title="站点阅读时长">4 分钟</span>
 </div>
 
   <div>
