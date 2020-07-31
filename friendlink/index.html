@@ -5,6 +5,19 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
 <meta name="theme-color" content="#222">
 <meta name="generator" content="Hexo 4.2.1">
+<script>var OriginTitile=document.title;
+ var st;
+ document.addEventListener('visibilitychange',function(){
+ if(document.hidden){
+ document.title="(つェ⊂)浏览器崩溃了";
+ clearTimeout(st);
+ }else{
+ document.title='(*´∇｀*)吖~又好了~ '+OriginTitile;
+ st=setTimeout(function(){
+ document.title=OriginTitile;
+ },4000);
+ }
+ });</script>
   <link rel="apple-touch-icon" sizes="180x180" href="https://cdn.jsdelivr.net/gh/ravizhan/ravizhan.github.io/images/apple-touch-icon-next.png">
   <link rel="icon" type="image/png" sizes="32x32" href="https://cdn.jsdelivr.net/gh/ravizhan/ravizhan.github.io/images/favicon-32x32-next.png">
   <link rel="icon" type="image/png" sizes="16x16" href="https://cdn.jsdelivr.net/gh/ravizhan/ravizhan.github.io/images/favicon-16x16-next.png">
@@ -460,6 +473,9 @@ $(document).ready(function() {
 <canvas class="fireworks"style="position:fixed;left:0;top:0;z-index:99999999;pointer-events:none;"></canvas>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/ravizhan/css-js@master/baozatexiao.js"></script>
 <script src="https://cdn.jsdelivr.net/gh/ravizhan/css-js@master/mouse.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css"/>
+<script src="https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget/autoload.js"></script>
 
         
 
