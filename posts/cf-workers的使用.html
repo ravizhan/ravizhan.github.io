@@ -40,21 +40,20 @@
     var CONFIG = {"hostname":"www.ravi.cool","root":"/","scheme":"Pisces","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":true,"style":"mac"},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":true,"mediumzoom":false,"lazyload":true,"pangu":false,"comments":{"style":"tabs","active":"valine","storage":true,"lazyload":false,"nav":null,"activeClass":"valine"},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":-1,"unescape":false,"preload":true},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta name="description" content="hello world!这是第一篇文章">
+  <meta name="description" content="Cloudflare Workers介绍及使用">
 <meta property="og:type" content="article">
-<meta property="og:title" content="hello world">
-<meta property="og:url" content="https://www.ravi.cool/posts/hello-world.html">
+<meta property="og:title" content="cf-workers的使用">
+<meta property="og:url" content="https://www.ravi.cool/posts/cf-workers%E7%9A%84%E4%BD%BF%E7%94%A8.html">
 <meta property="og:site_name" content="Ravi&#39;s blog">
-<meta property="og:description" content="hello world!这是第一篇文章">
+<meta property="og:description" content="Cloudflare Workers介绍及使用">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2020-07-07T03:16:47.000Z">
-<meta property="article:modified_time" content="2020-07-07T03:18:39.398Z">
+<meta property="article:published_time" content="2020-08-01T11:25:58.000Z">
+<meta property="article:modified_time" content="2020-08-02T07:54:11.399Z">
 <meta property="article:author" content="Ravi">
-<meta property="article:tag" content="Ravi">
-<meta property="article:tag" content="Ravi&#39;s blog">
+<meta property="article:tag" content="Cloudflare">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="https://www.ravi.cool/posts/hello-world.html">
+<link rel="canonical" href="https://www.ravi.cool/posts/cf-workers%E7%9A%84%E4%BD%BF%E7%94%A8.html">
 
 
 <script id="page-configurations">
@@ -67,7 +66,7 @@
   };
 </script>
 
-  <title>hello world | Ravi's blog</title>
+  <title>cf-workers的使用 | Ravi's blog</title>
   
 
 
@@ -212,7 +211,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://www.ravi.cool/posts/hello-world.html">
+    <link itemprop="mainEntityOfPage" href="https://www.ravi.cool/posts/cf-workers%E7%9A%84%E4%BD%BF%E7%94%A8.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="//cdn.jsdelivr.net/gh/ravizhan/ravizhan.github.io/images/avatar.gif">
@@ -225,7 +224,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          hello world
+          cf-workers的使用
         </h1>
 
         <div class="post-meta">
@@ -236,13 +235,19 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
-              
 
-              <time title="创建时间：2020-07-07 11:16:47 / 修改时间：11:18:39" itemprop="dateCreated datePublished" datetime="2020-07-07T11:16:47+08:00">2020-07-07</time>
+              <time title="创建时间：2020-08-01 19:25:58" itemprop="dateCreated datePublished" datetime="2020-08-01T19:25:58+08:00">2020-08-01</time>
             </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2020-08-02 15:54:11" itemprop="dateModified" datetime="2020-08-02T15:54:11+08:00">2020-08-02</time>
+              </span>
 
           
-            <span id="/posts/hello-world.html" class="post-meta-item leancloud_visitors" data-flag-title="hello world" title="阅读次数">
+            <span id="/posts/cf-workers%E7%9A%84%E4%BD%BF%E7%94%A8.html" class="post-meta-item leancloud_visitors" data-flag-title="cf-workers的使用" title="阅读次数">
               <span class="post-meta-item-icon">
                 <i class="fa fa-eye"></i>
               </span>
@@ -257,8 +262,8 @@
       </span>
       <span class="post-meta-item-text">Valine：</span>
     
-    <a title="valine" href="/posts/hello-world.html#valine-comments" itemprop="discussionUrl">
-      <span class="post-comments-count valine-comment-count" data-xid="/posts/hello-world.html" itemprop="commentCount"></span>
+    <a title="valine" href="/posts/cf-workers%E7%9A%84%E4%BD%BF%E7%94%A8.html#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/posts/cf-workers%E7%9A%84%E4%BD%BF%E7%94%A8.html" itemprop="commentCount"></span>
     </a>
   </span>
   
@@ -268,7 +273,7 @@
                 <i class="fa fa-file-word-o"></i>
               </span>
                 <span class="post-meta-item-text">本文字数：</span>
-              <span>18</span>
+              <span>192</span>
             </span>
             <span class="post-meta-item" title="阅读时长">
               <span class="post-meta-item-icon">
@@ -277,6 +282,7 @@
                 <span class="post-meta-item-text">阅读时长 &asymp;</span>
               <span>1 分钟</span>
             </span>
+            <div class="post-description">Cloudflare Workers介绍及使用</div>
 
         </div>
       </header>
@@ -287,8 +293,11 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <p>hello world!<br>这是第一篇文章</p>
-
+        <h2 id="what’s-cf-workers"><a href="#what’s-cf-workers" class="headerlink" title="what’s cf-workers"></a>what’s cf-workers</h2><p>Cloudflare Workers允许你在Cloudflare的边缘节点运行JS, Rust, C, C++等代码<br>并且每天有100,000次的免费请求，对于绝大多数人来说，是完全够用的<br>具体介绍见Cloudflare Workers官网：<a href="https://workers.cloudflare.com/" target="_blank" rel="noopener">https://workers.cloudflare.com/</a></p>
+<h2 id="用处"><a href="#用处" class="headerlink" title="用处"></a>用处</h2><p>那么它有什么用呢<br>这就是今天的<strong>重点</strong></p>
+<h3 id="1、反向代理"><a href="#1、反向代理" class="headerlink" title="1、反向代理"></a>1、反向代理</h3><div><div class="fold_hider"><div class="close hider_title">点击显/隐内容</div></div><div class="fold">
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br><span class="line">116</span><br><span class="line">117</span><br><span class="line">118</span><br><span class="line">119</span><br><span class="line">120</span><br><span class="line">121</span><br><span class="line">122</span><br><span class="line">123</span><br><span class="line">124</span><br><span class="line">125</span><br><span class="line">126</span><br><span class="line">127</span><br><span class="line">128</span><br><span class="line">129</span><br><span class="line">130</span><br><span class="line">131</span><br><span class="line">132</span><br><span class="line">133</span><br><span class="line">134</span><br><span class="line">135</span><br><span class="line">136</span><br><span class="line">137</span><br><span class="line">138</span><br><span class="line">139</span><br><span class="line">140</span><br><span class="line">141</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;&#x2F; 要进行反向代理的网站</span><br><span class="line">const upstream &#x3D; &#39;example.com&#39;</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F; 要进行代理的路径(一般不用改)</span><br><span class="line">const upstream_path &#x3D; &#39;&#x2F;&#39;</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F; 要进行反向代理的网站的移动站(一般跟上面一样就行)</span><br><span class="line">const upstream_mobile &#x3D; &#39;example.com&#39;</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F; 你希望禁止访问的国家&#x2F;地区</span><br><span class="line">const blocked_region &#x3D; [&#39;KP&#39;]</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F; 你希望禁止访问的ip</span><br><span class="line">const blocked_ip_address &#x3D; [&#39;127.0.0.1&#39;]</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F; 是否使用https与源站连接(一般不用改，现在大部分网站都支持https了)</span><br><span class="line">const https &#x3D; true</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F; 替换文本</span><br><span class="line">const replace_dict &#x3D; &#123;</span><br><span class="line">    &#39;$upstream&#39;: &#39;$custom_domain&#39;,</span><br><span class="line">    &#39;&#x2F;&#x2F;www.youtube.com&#39;: &#39;&#39;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">addEventListener(&#39;fetch&#39;, event &#x3D;&gt; &#123;</span><br><span class="line">    event.respondWith(fetchAndApply(event.request));</span><br><span class="line">&#125;)</span><br><span class="line"></span><br><span class="line">async function fetchAndApply(request) &#123;</span><br><span class="line"></span><br><span class="line">    const region &#x3D; request.headers.get(&#39;cf-ipcountry&#39;).toUpperCase();</span><br><span class="line">    const ip_address &#x3D; request.headers.get(&#39;cf-connecting-ip&#39;);</span><br><span class="line">    const user_agent &#x3D; request.headers.get(&#39;user-agent&#39;);</span><br><span class="line"></span><br><span class="line">    let response &#x3D; null;</span><br><span class="line">    let url &#x3D; new URL(request.url);</span><br><span class="line">    let url_hostname &#x3D; url.hostname;</span><br><span class="line"></span><br><span class="line">    if (https &#x3D;&#x3D; true) &#123;</span><br><span class="line">        url.protocol &#x3D; &#39;https:&#39;;</span><br><span class="line">    &#125; else &#123;</span><br><span class="line">        url.protocol &#x3D; &#39;http:&#39;;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    if (await device_status(user_agent)) &#123;</span><br><span class="line">        var upstream_domain &#x3D; upstream;</span><br><span class="line">    &#125; else &#123;</span><br><span class="line">        var upstream_domain &#x3D; upstream_mobile;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    url.host &#x3D; upstream_domain;</span><br><span class="line">    if (url.pathname &#x3D;&#x3D; &#39;&#x2F;&#39;) &#123;</span><br><span class="line">        url.pathname &#x3D; upstream_path;</span><br><span class="line">    &#125; else &#123;</span><br><span class="line">        url.pathname &#x3D; upstream_path + url.pathname;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    if (blocked_region.includes(region)) &#123;</span><br><span class="line">        response &#x3D; new Response(&#39;Access denied: WorkersProxy is not available in your region yet.&#39;, &#123;</span><br><span class="line">            status: 403</span><br><span class="line">        &#125;);</span><br><span class="line">    &#125; else if (blocked_ip_address.includes(ip_address)) &#123;</span><br><span class="line">        response &#x3D; new Response(&#39;Access denied: Your IP address is blocked by WorkersProxy.&#39;, &#123;</span><br><span class="line">            status: 403</span><br><span class="line">        &#125;);</span><br><span class="line">    &#125; else &#123;</span><br><span class="line">        let method &#x3D; request.method;</span><br><span class="line">        let request_headers &#x3D; request.headers;</span><br><span class="line">        let new_request_headers &#x3D; new Headers(request_headers);</span><br><span class="line"></span><br><span class="line">        new_request_headers.set(&#39;Host&#39;, url.hostname);</span><br><span class="line">        new_request_headers.set(&#39;Referer&#39;, url.hostname);</span><br><span class="line"></span><br><span class="line">        let original_response &#x3D; await fetch(url.href, &#123;</span><br><span class="line">            method: method,</span><br><span class="line">            headers: new_request_headers</span><br><span class="line">        &#125;)</span><br><span class="line"></span><br><span class="line">        let original_response_clone &#x3D; original_response.clone();</span><br><span class="line">        let original_text &#x3D; null;</span><br><span class="line">        let response_headers &#x3D; original_response.headers;</span><br><span class="line">        let new_response_headers &#x3D; new Headers(response_headers);</span><br><span class="line">        let status &#x3D; original_response.status;</span><br><span class="line"></span><br><span class="line">        new_response_headers.set(&#39;access-control-allow-origin&#39;, &#39;*&#39;);</span><br><span class="line">        new_response_headers.set(&#39;access-control-allow-credentials&#39;, true);</span><br><span class="line">        new_response_headers.delete(&#39;content-security-policy&#39;);</span><br><span class="line">        new_response_headers.delete(&#39;content-security-policy-report-only&#39;);</span><br><span class="line">        new_response_headers.delete(&#39;clear-site-data&#39;);</span><br><span class="line"></span><br><span class="line">        const content_type &#x3D; new_response_headers.get(&#39;content-type&#39;);</span><br><span class="line">        if (content_type.includes(&#39;text&#x2F;html&#39;) &amp;&amp; content_type.includes(&#39;UTF-8&#39;)) &#123;</span><br><span class="line">            original_text &#x3D; await replace_response_text(original_response_clone, upstream_domain, url_hostname);</span><br><span class="line">        &#125; else &#123;</span><br><span class="line">            original_text &#x3D; original_response_clone.body</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        response &#x3D; new Response(original_text, &#123;</span><br><span class="line">            status,</span><br><span class="line">            headers: new_response_headers</span><br><span class="line">        &#125;)</span><br><span class="line">    &#125;</span><br><span class="line">    return response;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">async function replace_response_text(response, upstream_domain, host_name) &#123;</span><br><span class="line">    let text &#x3D; await response.text()</span><br><span class="line"></span><br><span class="line">    var i, j;</span><br><span class="line">    for (i in replace_dict) &#123;</span><br><span class="line">        j &#x3D; replace_dict[i]</span><br><span class="line">        if (i &#x3D;&#x3D; &#39;$upstream&#39;) &#123;</span><br><span class="line">            i &#x3D; upstream_domain</span><br><span class="line">        &#125; else if (i &#x3D;&#x3D; &#39;$custom_domain&#39;) &#123;</span><br><span class="line">            i &#x3D; host_name</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        if (j &#x3D;&#x3D; &#39;$upstream&#39;) &#123;</span><br><span class="line">            j &#x3D; upstream_domain</span><br><span class="line">        &#125; else if (j &#x3D;&#x3D; &#39;$custom_domain&#39;) &#123;</span><br><span class="line">            j &#x3D; host_name</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        let re &#x3D; new RegExp(i, &#39;g&#39;)</span><br><span class="line">        text &#x3D; text.replace(re, j);</span><br><span class="line">    &#125;</span><br><span class="line">    return text;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">async function device_status(user_agent_info) &#123;</span><br><span class="line">    var agents &#x3D; [&quot;Android&quot;, &quot;iPhone&quot;, &quot;SymbianOS&quot;, &quot;Windows Phone&quot;, &quot;iPad&quot;, &quot;iPod&quot;];</span><br><span class="line">    var flag &#x3D; true;</span><br><span class="line">    for (var v &#x3D; 0; v &lt; agents.length; v++) &#123;</span><br><span class="line">        if (user_agent_info.indexOf(agents[v]) &gt; 0) &#123;</span><br><span class="line">            flag &#x3D; false;</span><br><span class="line">            break;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    return flag;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</div></div>
     </div>
 
     
@@ -303,7 +312,7 @@
   </li>
   <li class="post-copyright-link">
     <strong>本文链接：</strong>
-    <a href="https://www.ravi.cool/posts/hello-world.html" title="hello world">https://www.ravi.cool/posts/hello-world.html</a>
+    <a href="https://www.ravi.cool/posts/cf-workers%E7%9A%84%E4%BD%BF%E7%94%A8.html" title="cf-workers的使用">https://www.ravi.cool/posts/cf-workers的使用.html</a>
   </li>
   <li class="post-copyright-license">
     <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" rel="noopener" target="_blank"><i class="fa fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
@@ -313,17 +322,20 @@
 
 
       <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/Cloudflare/" rel="tag"># Cloudflare</a>
+          </div>
 
         
 
 
         
     <div class="post-nav">
-      <div class="post-nav-item"></div>
       <div class="post-nav-item">
-    <a href="/posts/Sublime.html" rel="next" title="Sublime使用全攻略">
-      Sublime使用全攻略 <i class="fa fa-chevron-right"></i>
+    <a href="/posts/%E7%A8%8B%E5%BA%8F%E5%AE%9A%E5%88%B6.html" rel="prev" title="程序定制">
+      <i class="fa fa-chevron-left"></i> 程序定制
     </a></div>
+      <div class="post-nav-item"></div>
     </div>
       </footer>
     
@@ -383,6 +395,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#what’s-cf-workers"><span class="nav-number">1.</span> <span class="nav-text">what’s cf-workers</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#用处"><span class="nav-number">2.</span> <span class="nav-text">用处</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1、反向代理"><span class="nav-number">2.1.</span> <span class="nav-text">1、反向代理</span></a></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -679,7 +692,7 @@ window.addEventListener('pjax:success', () => {
       quicklink({
         timeout : 3000,
         priority: true,
-        ignores : [uri => uri.includes('#'),uri => uri === 'https://www.ravi.cool/posts/hello-world.html',]
+        ignores : [uri => uri.includes('#'),uri => uri === 'https://www.ravi.cool/posts/cf-workers%E7%9A%84%E4%BD%BF%E7%94%A8.html',]
       });
       });
   </script>
