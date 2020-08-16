@@ -73,9 +73,11 @@
 <p><code>Default Root ID</code>: 填写目录ID，如图所示，默认为根目录<br><img data-src="https://cdn.jsdelivr.net/gh/ravizhan/ravizhan.github.io/posts/cf-workers/root_id.jpg" width = "60%" /><br>如果想要设置密码访问的话，可以勾选<code>Enable authentication</code>,然后设置用户名和密码<br>想要进行上传的话，可以勾选<code>Enable file uploading</code><br>最后点击<code>Get Code</code>，生成代码后，复制到workers中，保存并部署即可</p>
 <p>最终效果如下↓<br><img data-src="https://cdn.jsdelivr.net/gh/ravizhan/ravizhan.github.io/posts/cf-workers/GDIndex.jpg" width = "60%" /></p>
 <h2 id="自定义域名"><a href="#自定义域名" class="headerlink" title="自定义域名"></a>自定义域名</h2><p>将你想自定义的域名CNAME指向workers的域名<br><img data-src="https://cdn.jsdelivr.net/gh/ravizhan/ravizhan.github.io/posts/cf-workers/workers-domain.jpg" width = "60%" /><br>这里有两种情况<br>1.使用cloudflare ns接入的<br><img data-src="https://cdn.jsdelivr.net/gh/ravizhan/ravizhan.github.io/posts/cf-workers/cf-dns.jpg" width = "60%" /><br>2.使用第三方平台接入的(如:<a href="https://cdn.wzfou.com/" target="_blank" rel="noopener">https://cdn.wzfou.com/</a>)<br>点击<code>添加新记录</code>,跳转到如下界面<br><img data-src="https://cdn.jsdelivr.net/gh/ravizhan/ravizhan.github.io/posts/cf-workers/wzf.jpg" width = "60%" /></p>
-<p>dns解析设置完成后，回到cloudflare控制面板，点击<code>workers -&gt; 添加路由</code><br><img data-src="https://cdn.jsdelivr.net/gh/ravizhan/ravizhan.github.io/posts/cf-workers/workers .jpg" width = "60%" /></p>
+<p>dns解析设置完成后，回到cloudflare控制面板，点击<code>workers -&gt; 添加路由</code><br><img data-src="https://cdn.jsdelivr.net/gh/ravizhan/ravizhan.github.io/posts/cf-workers/workers.jpg" width = "60%" /></p>
 <img data-src="https://cdn.jsdelivr.net/gh/ravizhan/ravizhan.github.io/posts/cf-workers/set.jpg" width = "60%" />
-设置完成，点`保存`即可]]></content>
+
+<p>设置完成，点<code>保存</code>即可</p>
+]]></content>
       <tags>
         <tag>Cloudflare</tag>
       </tags>
