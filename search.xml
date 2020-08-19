@@ -13,6 +13,16 @@
       </tags>
   </entry>
   <entry>
+    <title>cf缓存问题</title>
+    <url>/posts/cf%E7%BC%93%E5%AD%98%E9%97%AE%E9%A2%98.html</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>make-github-faster</title>
+    <url>/posts/make-github-faster.html</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
     <title>cf-workers的使用</title>
     <url>/posts/cf-workers.html</url>
     <content><![CDATA[<h2 id="what’s-cf-workers"><a href="#what’s-cf-workers" class="headerlink" title="what’s cf-workers"></a>what’s cf-workers</h2><p>Cloudflare Workers允许你在Cloudflare的边缘节点运行JS, Rust, C, C++等代码<br>并且每天有100,000次的免费请求，对于绝大多数人来说，是完全够用的<br>具体介绍见Cloudflare Workers官网：<a href="https://workers.cloudflare.com/" target="_blank" rel="noopener">https://workers.cloudflare.com/</a></p>
