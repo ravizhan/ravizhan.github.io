@@ -1220,7 +1220,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #5037e2;
+  background: #509a61;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2513,4 +2513,10 @@ body {
 }
 .open:after {
   content: "▲";
+}
+body {
+  cursor: url("https://cdn.jsdelivr.net/gh/ravizhan/ravizhan.github.io/images/cursor_1.png"), default;
+}
+a:hover {
+  cursor: url("https://cdn.jsdelivr.net/gh/ravizhan/ravizhan.github.io/images/cursor_2.png"), pointer;
 }
