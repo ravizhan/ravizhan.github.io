@@ -15,8 +15,7 @@
   <entry>
     <title>Sakura Frp 使用常见问题</title>
     <url>/posts/sakura-frp.html</url>
-    <content><![CDATA[<p>[TOC]</p>
-<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>Sakura Frp 是一个公益性质的内网穿透服务，本文是该服务的帮助文档(xxs，超级小白专用)。<br>有一点点网络基础的请忽略本文，这两篇更适合你：<a href="https://gitproxy.qianqu.me/wiki/#/README" target="_blank" rel="noopener">官方文档</a>，<a href="https://baoshuo.blog/post/8tYaUDF47/" target="_blank" rel="noopener">宝硕补充版</a></p>
+    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>Sakura Frp 是一个公益性质的内网穿透服务，本文是该服务的帮助文档(xxs，超级小白专用)。<br>有一点点网络基础的请忽略本文，这两篇更适合你：<a href="https://gitproxy.qianqu.me/wiki/#/README" target="_blank" rel="noopener">官方文档</a>，<a href="https://baoshuo.blog/post/8tYaUDF47/" target="_blank" rel="noopener">宝硕补充版</a></p>
 <p>QQ群号：1149532962 （也可点击链接快速加群：<a href="https://jq.qq.com/?_wv=1027&amp;k=Em3grmqF）" target="_blank" rel="noopener">https://jq.qq.com/?_wv=1027&amp;k=Em3grmqF）</a><br>声明：本人并非站点管理员/客服，有问题请 <a href="https://owq.moe/channel/Natfrp" target="_blank" rel="noopener">点此前往咨询页面</a> 。</p>
 <h3 id="提示"><a href="#提示" class="headerlink" title="提示"></a>提示</h3><blockquote>
 <p>Sakura Frp 并没有<strong>可用性保障(SLA)</strong>，因此由本服务可用性问题所造成的损失概不负责。<br>所以偶尔节点挂了换一个就得了，别老是问来问去的(xxs行为)<br>节点状态查询-&gt;<a href="https://status.natfrp.com/" target="_blank" rel="noopener">https://status.natfrp.com/</a></p>
