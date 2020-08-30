@@ -1,25 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>程序定制</title>
-    <url>/posts/%E7%A8%8B%E5%BA%8F%E5%AE%9A%E5%88%B6.html</url>
-    <content><![CDATA[<p>现在比较无聊，想接点项目练练手(主要还是没钱…)<br>价格很低(0~10元)，先做后付款(<strong>诚信</strong>)<br>我做完的也都会开源，供大家下载</p>
-<p>联系方式左边有，qq/微信备注<strong>程序定制</strong>，推荐用<strong>邮箱</strong><br>写清楚你的需求(不要太过分)，推荐<strong>爬虫</strong>类的(比较拿手)，其他比较基础的也行</p>
-<p>说下制作时间吧，因为我学业压力比较大(初三)，所以时间会稍长，1~2周，只有周末才能做，寒暑假的空闲时间较多，所以急着要的别找我，也不要老是催(我好可怜的…)</p>
-<p>做好之后我会发下载链接，至于费用嘛，我会发收款码，给不给就是你的事了，放心，价格不会超过10元。<br>当然你不给也问题不大，下载链接一样会给你，至于下次会不会接你单呢，那就不好说了🤪</p>
+    <title>Sublime使用全攻略</title>
+    <url>/posts/Sublime.html</url>
+    <content><![CDATA[<h2 id="下载-amp-安装"><a href="#下载-amp-安装" class="headerlink" title="下载&amp;安装"></a>下载&amp;安装</h2><h3 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h3><p><a href="http://www.sublimetext.cn/" target="_blank" rel="noopener"><strong>官网</strong></a> <a href="https://down.ravi.cool/#/1/main/sublime" target="_blank" rel="noopener"><strong>我的下载站</strong></a></p>
+<a id="more"></a>
+<h3 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h3><p>有手就行。。。<br>这都不会，那就不用往下看了</p>
+<h2 id="激活"><a href="#激活" class="headerlink" title="激活"></a>激活</h2><p>没激活也能用，但是会不时弹出激活提示<br>本人强迫症，所以👇</p>
+<figure class="highlight angelscript"><table><tr><td class="code"><pre><span class="line">----- BEGIN LICENSE -----</span><br><span class="line">Member J2TeaM</span><br><span class="line">Single User License</span><br><span class="line">EA7E<span class="number">-1011316</span></span><br><span class="line">D7DA350E <span class="number">1</span>B8B0760 <span class="number">972</span>F8B60 F3E64036</span><br><span class="line">B9B4E234 F356F38F <span class="number">0</span>AD1E3B7 <span class="number">0E9</span>C5FAD</span><br><span class="line">FA0A2ABE <span class="number">25</span>F65BD8 D51458E5 <span class="number">3923</span>CE80</span><br><span class="line"><span class="number">87428428</span> <span class="number">79079</span>A01 AA69F319 A1AF29A4</span><br><span class="line">A684C2DC <span class="number">0</span>B1583D4 <span class="number">19</span>CBD290 <span class="number">217618</span>CD</span><br><span class="line"><span class="number">5653E0</span>A0 BACE3948 BB2EE45E <span class="number">422</span>D2C87</span><br><span class="line">DD9AF44B <span class="number">99</span>C49590 D2DBDEE1 <span class="number">75860</span>FD2</span><br><span class="line"><span class="number">8</span>C8BB2AD B2ECE5A4 EFC08AF2 <span class="number">25</span>A9B864</span><br><span class="line">------ END LICENSE ------​</span><br></pre></td></tr></table></figure>
+<img data-src="https://cdn.jsdelivr.net/gh/ravizhan/ravizhan.github.io@master/posts/Sublime/license.gif" width = "60%" />
+
+<h2 id="设置中文-汉化"><a href="#设置中文-汉化" class="headerlink" title="设置中文(汉化)"></a>设置中文(汉化)</h2><p>安装插件控制面板<code>Tools -&gt; Install Package Control</code><br>安装有点慢，在左下角有提示<br><img data-src="https://cdn.jsdelivr.net/gh/ravizhan/ravizhan.github.io@master/posts/Sublime/ipc.jpg" width = "60%" /><br>点击<code>Preferences -&gt; Package Control</code><br><img data-src="https://cdn.jsdelivr.net/gh/ravizhan/ravizhan.github.io@master/posts/Sublime/pc.jpg" width = "60%" /><br>在弹出的窗口中点击<code>Package Control: Install Package</code><br><img data-src="https://cdn.jsdelivr.net/gh/ravizhan/ravizhan.github.io@master/posts/Sublime/ip.jpg" width = "60%" /><br>再在弹出的窗口中，输入<code>clz</code>，点击<code>ChineseLocalizations</code><br><img data-src="https://cdn.jsdelivr.net/gh/ravizhan/ravizhan.github.io@master/posts/Sublime/clz.jpg" width = "60%" /><br>等待安装完成，<strong>大功告成</strong></p>
+<p>完整演示👇<br><img data-src="https://cdn.jsdelivr.net/gh/ravizhan/ravizhan.github.io@master/posts/Sublime/all.gif" width = "60%" /></p>
+<h2 id="编写Markdown设置"><a href="#编写Markdown设置" class="headerlink" title="编写Markdown设置"></a>编写Markdown设置</h2><h3 id="MarkdownPreview"><a href="#MarkdownPreview" class="headerlink" title="MarkdownPreview"></a>MarkdownPreview</h3><p>按照上面的方法，在<code>Package Control: Install Package</code>中安装<code>MarkdownPreview</code></p>
+<h4 id="用浏览器预览"><a href="#用浏览器预览" class="headerlink" title="用浏览器预览"></a>用浏览器预览</h4><h5 id="常规方法"><a href="#常规方法" class="headerlink" title="常规方法"></a>常规方法</h5><p>1.组合键 <code>Ctrl+Shift+P</code> 调出命令面板<br>2.输入mdp找到并选中Markdown Preview： Preview in Browser<br>3.出现三个选项：<code>github</code> <code>gitlab</code> <code>markdown</code> 任选其一即可<br><img data-src="https://cdn.jsdelivr.net/gh/ravizhan/ravizhan.github.io@master/posts/Sublime/mdp.jpg" width = "60%" /><br>4.默认浏览器中显示预览结果</p>
+<h5 id="用快捷键打开"><a href="#用快捷键打开" class="headerlink" title="用快捷键打开"></a>用快捷键打开</h5><p>设置快捷键：打开<code>首选项 -&gt; 快捷键设置</code><br>在右边的中括号内输入</p>
+<figure class="highlight json"><table><tr><td class="code"><pre><span class="line">&#123; <span class="attr">"keys"</span>: [<span class="string">"alt+m"</span>],</span><br><span class="line"><span class="attr">"command"</span>: <span class="string">"markdown_preview"</span>,</span><br><span class="line"><span class="attr">"args"</span>: &#123;<span class="attr">"target"</span>: <span class="string">"browser"</span>, <span class="attr">"parser"</span>:<span class="string">"markdown"</span>&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p><code>alt+m</code> 可设置为自己喜欢的按键<br><code>markdown</code> 也可设置为 <code>github</code>或<code>gitlab</code></p>
+</blockquote>
+<p>然后按下<code>alt+m</code>就可以在默认浏览器里查看预览啦</p>
+<blockquote>
+<p>但是上面的方法都很繁琐，然而像我这种懒人怎么会用呢(嘿嘿嘿)<br>所以就有了下面的<code>LiveReload</code></p>
+</blockquote>
+<h3 id="LiveReload"><a href="#LiveReload" class="headerlink" title="LiveReload"></a>LiveReload</h3><p>一样的在<code>Package Control</code>中安装<code>LiveReload</code><br>打开配置文件 <code>首选项-&gt; Package Settings -&gt; Markdown Preview -&gt; Settings</code></p>
+<img data-src="https://cdn.jsdelivr.net/gh/ravizhan/ravizhan.github.io@master/posts/Sublime/markdown-setting.jpg" width = "60%" />
+在右边加一条下面这个,保存后重启Sublime
+> `"enable_autoreload": true`
+
+<p>然后<code>Ctrl+Shift+P</code> 输入<code>LiveReload: Enable/disable plug-ins</code>,<br>回车, 选择 <code>Simple Reload with delay (400ms)</code>或者<code>Simple Reload</code>，<br>两者的区别在于后者没有延迟。<br><img data-src="https://cdn.jsdelivr.net/gh/ravizhan/ravizhan.github.io@master/posts/Sublime/reload.jpg" width = "60%" /></p>
+<blockquote>
+<p>这里又有一个问题了，每次都要<code>Ctrl+S</code>保存，岂不是很麻烦<br>所以就有了自动保存功能</p>
+</blockquote>
+<h3 id="自动保存"><a href="#自动保存" class="headerlink" title="自动保存"></a>自动保存</h3><p>打开<code>首选项 -&gt; 设置</code></p>
+<img data-src="https://cdn.jsdelivr.net/gh/ravizhan/ravizhan.github.io@master/posts/Sublime/setting.jpg" width = "60%" />
+在右边添加`"save_on_focus_lost": true`
+> 注意：要先在上面的中括号后面加上逗号
+
+<img data-src="https://cdn.jsdelivr.net/gh/ravizhan/ravizhan.github.io@master/posts/Sublime/add.jpg" width = "60%" />
+这样当你的鼠标点击Sublime以外的地方，文件就会自动保存啦
+
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>这篇文章就先写到这，希望对你们能有所帮助</p>
 ]]></content>
       <tags>
-        <tag>程序定制</tag>
+        <tag>tools</tag>
       </tags>
   </entry>
   <entry>
     <title>cf缓存问题</title>
     <url>/posts/cf%E7%BC%93%E5%AD%98%E9%97%AE%E9%A2%98.html</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>make-github-faster</title>
-    <url>/posts/make-github-faster.html</url>
     <content><![CDATA[]]></content>
   </entry>
   <entry>
@@ -93,6 +122,17 @@
       </tags>
   </entry>
   <entry>
+    <title>hello world</title>
+    <url>/posts/hello-world.html</url>
+    <content><![CDATA[<p>hello world!<br>这是第一篇文章</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>make-github-faster</title>
+    <url>/posts/make-github-faster.html</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
     <title>luogu-T100</title>
     <url>/posts/luogu-T100.html</url>
     <content><![CDATA[<h1 id="T100-【入门1】顺序结构"><a href="#T100-【入门1】顺序结构" class="headerlink" title="T100 -【入门1】顺序结构"></a>T100 -【入门1】顺序结构</h1><p><a href="https://www.luogu.com.cn/training/100" target="_blank" rel="noopener">https://www.luogu.com.cn/training/100</a></p>
@@ -158,55 +198,32 @@
       </tags>
   </entry>
   <entry>
-    <title>Sublime使用全攻略</title>
-    <url>/posts/Sublime.html</url>
-    <content><![CDATA[<h2 id="下载-amp-安装"><a href="#下载-amp-安装" class="headerlink" title="下载&amp;安装"></a>下载&amp;安装</h2><h3 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h3><p><a href="http://www.sublimetext.cn/" target="_blank" rel="noopener"><strong>官网</strong></a> <a href="https://down.ravi.cool/#/1/main/sublime" target="_blank" rel="noopener"><strong>我的下载站</strong></a></p>
-<a id="more"></a>
-<h3 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h3><p>有手就行。。。<br>这都不会，那就不用往下看了</p>
-<h2 id="激活"><a href="#激活" class="headerlink" title="激活"></a>激活</h2><p>没激活也能用，但是会不时弹出激活提示<br>本人强迫症，所以👇</p>
-<figure class="highlight angelscript"><table><tr><td class="code"><pre><span class="line">----- BEGIN LICENSE -----</span><br><span class="line">Member J2TeaM</span><br><span class="line">Single User License</span><br><span class="line">EA7E<span class="number">-1011316</span></span><br><span class="line">D7DA350E <span class="number">1</span>B8B0760 <span class="number">972</span>F8B60 F3E64036</span><br><span class="line">B9B4E234 F356F38F <span class="number">0</span>AD1E3B7 <span class="number">0E9</span>C5FAD</span><br><span class="line">FA0A2ABE <span class="number">25</span>F65BD8 D51458E5 <span class="number">3923</span>CE80</span><br><span class="line"><span class="number">87428428</span> <span class="number">79079</span>A01 AA69F319 A1AF29A4</span><br><span class="line">A684C2DC <span class="number">0</span>B1583D4 <span class="number">19</span>CBD290 <span class="number">217618</span>CD</span><br><span class="line"><span class="number">5653E0</span>A0 BACE3948 BB2EE45E <span class="number">422</span>D2C87</span><br><span class="line">DD9AF44B <span class="number">99</span>C49590 D2DBDEE1 <span class="number">75860</span>FD2</span><br><span class="line"><span class="number">8</span>C8BB2AD B2ECE5A4 EFC08AF2 <span class="number">25</span>A9B864</span><br><span class="line">------ END LICENSE ------​</span><br></pre></td></tr></table></figure>
-<img data-src="https://cdn.jsdelivr.net/gh/ravizhan/ravizhan.github.io@master/posts/Sublime/license.gif" width = "60%" />
-
-<h2 id="设置中文-汉化"><a href="#设置中文-汉化" class="headerlink" title="设置中文(汉化)"></a>设置中文(汉化)</h2><p>安装插件控制面板<code>Tools -&gt; Install Package Control</code><br>安装有点慢，在左下角有提示<br><img data-src="https://cdn.jsdelivr.net/gh/ravizhan/ravizhan.github.io@master/posts/Sublime/ipc.jpg" width = "60%" /><br>点击<code>Preferences -&gt; Package Control</code><br><img data-src="https://cdn.jsdelivr.net/gh/ravizhan/ravizhan.github.io@master/posts/Sublime/pc.jpg" width = "60%" /><br>在弹出的窗口中点击<code>Package Control: Install Package</code><br><img data-src="https://cdn.jsdelivr.net/gh/ravizhan/ravizhan.github.io@master/posts/Sublime/ip.jpg" width = "60%" /><br>再在弹出的窗口中，输入<code>clz</code>，点击<code>ChineseLocalizations</code><br><img data-src="https://cdn.jsdelivr.net/gh/ravizhan/ravizhan.github.io@master/posts/Sublime/clz.jpg" width = "60%" /><br>等待安装完成，<strong>大功告成</strong></p>
-<p>完整演示👇<br><img data-src="https://cdn.jsdelivr.net/gh/ravizhan/ravizhan.github.io@master/posts/Sublime/all.gif" width = "60%" /></p>
-<h2 id="编写Markdown设置"><a href="#编写Markdown设置" class="headerlink" title="编写Markdown设置"></a>编写Markdown设置</h2><h3 id="MarkdownPreview"><a href="#MarkdownPreview" class="headerlink" title="MarkdownPreview"></a>MarkdownPreview</h3><p>按照上面的方法，在<code>Package Control: Install Package</code>中安装<code>MarkdownPreview</code></p>
-<h4 id="用浏览器预览"><a href="#用浏览器预览" class="headerlink" title="用浏览器预览"></a>用浏览器预览</h4><h5 id="常规方法"><a href="#常规方法" class="headerlink" title="常规方法"></a>常规方法</h5><p>1.组合键 <code>Ctrl+Shift+P</code> 调出命令面板<br>2.输入mdp找到并选中Markdown Preview： Preview in Browser<br>3.出现三个选项：<code>github</code> <code>gitlab</code> <code>markdown</code> 任选其一即可<br><img data-src="https://cdn.jsdelivr.net/gh/ravizhan/ravizhan.github.io@master/posts/Sublime/mdp.jpg" width = "60%" /><br>4.默认浏览器中显示预览结果</p>
-<h5 id="用快捷键打开"><a href="#用快捷键打开" class="headerlink" title="用快捷键打开"></a>用快捷键打开</h5><p>设置快捷键：打开<code>首选项 -&gt; 快捷键设置</code><br>在右边的中括号内输入</p>
-<figure class="highlight json"><table><tr><td class="code"><pre><span class="line">&#123; <span class="attr">"keys"</span>: [<span class="string">"alt+m"</span>],</span><br><span class="line"><span class="attr">"command"</span>: <span class="string">"markdown_preview"</span>,</span><br><span class="line"><span class="attr">"args"</span>: &#123;<span class="attr">"target"</span>: <span class="string">"browser"</span>, <span class="attr">"parser"</span>:<span class="string">"markdown"</span>&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<blockquote>
-<p><code>alt+m</code> 可设置为自己喜欢的按键<br><code>markdown</code> 也可设置为 <code>github</code>或<code>gitlab</code></p>
+    <title>Sakura Frp 使用常见问题</title>
+    <url>/posts/sakura-frp.html</url>
+    <content><![CDATA[<p>##Sakura Frp 使用常见问题<br>[TOC]</p>
+<p>###前言<br>Sakura Frp 是一个公益性质的内网穿透服务，本文是该服务的帮助文档(xxs，超级小白专用)。<br>有一点点网络基础的请忽略本文，这两篇更适合你：<a href="https://gitproxy.qianqu.me/wiki/#/README" target="_blank" rel="noopener">官方文档</a>，<a href="https://baoshuo.blog/post/8tYaUDF47/" target="_blank" rel="noopener">宝硕补充版</a></p>
+<p>QQ群号：1149532962 （也可点击链接快速加群：<a href="https://jq.qq.com/?_wv=1027&amp;k=Em3grmqF）" target="_blank" rel="noopener">https://jq.qq.com/?_wv=1027&amp;k=Em3grmqF）</a><br>声明：本人并非站点管理员/客服，有问题请 <a href="https://owq.moe/channel/Natfrp" target="_blank" rel="noopener">点此前往咨询页面</a> 。</p>
+<h3 id="提示"><a href="#提示" class="headerlink" title="提示"></a>提示</h3><blockquote>
+<p>Sakura Frp 并没有<strong>可用性保障(SLA)</strong>，因此由本服务可用性问题所造成的损失概不负责。<br>所以偶尔节点挂了换一个就得了，别老是问来问去的(xxs行为)<br>节点状态查询-&gt;<a href="https://status.natfrp.com/" target="_blank" rel="noopener">https://status.natfrp.com/</a></p>
 </blockquote>
-<p>然后按下<code>alt+m</code>就可以在默认浏览器里查看预览啦</p>
-<blockquote>
-<p>但是上面的方法都很繁琐，然而像我这种懒人怎么会用呢(嘿嘿嘿)<br>所以就有了下面的<code>LiveReload</code></p>
-</blockquote>
-<h3 id="LiveReload"><a href="#LiveReload" class="headerlink" title="LiveReload"></a>LiveReload</h3><p>一样的在<code>Package Control</code>中安装<code>LiveReload</code><br>打开配置文件 <code>首选项-&gt; Package Settings -&gt; Markdown Preview -&gt; Settings</code></p>
-<img data-src="https://cdn.jsdelivr.net/gh/ravizhan/ravizhan.github.io@master/posts/Sublime/markdown-setting.jpg" width = "60%" />
-在右边加一条下面这个,保存后重启Sublime
-> `"enable_autoreload": true`
-
-<p>然后<code>Ctrl+Shift+P</code> 输入<code>LiveReload: Enable/disable plug-ins</code>,<br>回车, 选择 <code>Simple Reload with delay (400ms)</code>或者<code>Simple Reload</code>，<br>两者的区别在于后者没有延迟。<br><img data-src="https://cdn.jsdelivr.net/gh/ravizhan/ravizhan.github.io@master/posts/Sublime/reload.jpg" width = "60%" /></p>
-<blockquote>
-<p>这里又有一个问题了，每次都要<code>Ctrl+S</code>保存，岂不是很麻烦<br>所以就有了自动保存功能</p>
-</blockquote>
-<h3 id="自动保存"><a href="#自动保存" class="headerlink" title="自动保存"></a>自动保存</h3><p>打开<code>首选项 -&gt; 设置</code></p>
-<img data-src="https://cdn.jsdelivr.net/gh/ravizhan/ravizhan.github.io@master/posts/Sublime/setting.jpg" width = "60%" />
-在右边添加`"save_on_focus_lost": true`
-> 注意：要先在上面的中括号后面加上逗号
-
-<img data-src="https://cdn.jsdelivr.net/gh/ravizhan/ravizhan.github.io@master/posts/Sublime/add.jpg" width = "60%" />
-这样当你的鼠标点击Sublime以外的地方，文件就会自动保存啦
-
-<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>这篇文章就先写到这，希望对你们能有所帮助</p>
+<p>###域名问题<br>####1.没有域名怎么办<br>#####1.买啊(一块钱就行，一元都没有的请跳过)<br>Q:哪里买呢<br>A:国内：<a href="https://s.ravi.cool/xrdyl5" target="_blank" rel="noopener">阿里云(仅支付宝)</a>(首年贼便宜，续费起飞) <a href="https://url.cn/0X87Ny5z" target="_blank" rel="noopener">腾讯云(仅微信)</a>(推荐6-9位纯数字xyz域名，仅需8元/年，续费同价)<br>&nbsp;&nbsp;&nbsp;国外(支付宝或银行卡)：<a href="https://sg.godaddy.com/" target="_blank" rel="noopener">GoDaddy</a> <a href="https://www.namecheap.com/" target="_blank" rel="noopener">Namecheap</a><br>注意事项：1.国内购买域名(不管哪家)都要实名认证，国外则不用<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.实名认证<strong>≠</strong>备案<a href="https://s.ravi.cool/j15r5w" target="_blank" rel="noopener">具体看这</a><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.如果是首次注册，要等大约一个星期，别急，急也没用<br>Q:买完之后呢<br>A:请设置解析记录，具体<a href="https://s.ravi.cool/1bqocm" target="_blank" rel="noopener">看这里</a><br>#####2.改host(有一定难度(对于xxs和小白))<br>首先你要了解host是啥，host就是将一些常用的网址域名与其对应的IP地址建立一个关联的“数据库”<br>不知道的<a href="https://s.ravi.cool/mjwfro" target="_blank" rel="noopener">请百度</a><br>先创建隧道，选http隧道，节点选国外的，域名随便填，本地端口和本地地址自己看着办<br><img data-src="https://cdn.jsdelivr.net/gh/ravizhan/ravizhan.github.io@master/posts/sakura-frp/1.png" width = "60%" /><br>下载<strong>启动器启动器启动器</strong>，不会用linux就别用，直接用windows映射linux不就得了<br>不会用启动器的<a href="https://s.ravi.cool/wxohks" target="_blank" rel="noopener">看这里</a><br>启动隧道之后，记下弹窗中的<strong>DNS记录值</strong><br><img data-src="https://cdn.jsdelivr.net/gh/ravizhan/ravizhan.github.io@master/posts/sakura-frp/2.png" width = "60%" /><br>在地址栏输入<code>C:\Windows\System32\drivers\etc</code>,用记事本打开<code>hosts</code>文件<br><img data-src="https://cdn.jsdelivr.net/gh/ravizhan/ravizhan.github.io@master/posts/sakura-frp/3.png" width = "60%" /><br><img data-src="https://cdn.jsdelivr.net/gh/ravizhan/ravizhan.github.io@master/posts/sakura-frp/4.png" width = "60%" /><br>然后点另存为，保存到桌面<br>删掉后缀<code>.txt</code><br><img data-src="https://cdn.jsdelivr.net/gh/ravizhan/ravizhan.github.io@master/posts/sakura-frp/5.png" width = "60%" /><br>复制到刚刚的文件夹<br><img data-src="https://cdn.jsdelivr.net/gh/ravizhan/ravizhan.github.io@master/posts/sakura-frp/6.png" width = "60%" /><br><img data-src="https://cdn.jsdelivr.net/gh/ravizhan/ravizhan.github.io@master/posts/sakura-frp/7.png" width = "60%" /></p>
+<p>最后在浏览器输入域名就能访问了<br>注意:这个方法仅适用于自己测试，如果想让所有人都能打开，请购买域名</p>
+<p>###未完待续。。。。<br>明天开学了，周末再更吧</p>
 ]]></content>
       <tags>
-        <tag>tools</tag>
+        <tag>Sakura Frp</tag>
       </tags>
   </entry>
   <entry>
-    <title>hello world</title>
-    <url>/posts/hello-world.html</url>
-    <content><![CDATA[<p>hello world!<br>这是第一篇文章</p>
+    <title>程序定制</title>
+    <url>/posts/%E7%A8%8B%E5%BA%8F%E5%AE%9A%E5%88%B6.html</url>
+    <content><![CDATA[<p>现在比较无聊，想接点项目练练手(主要还是没钱…)<br>价格很低(0~10元)，先做后付款(<strong>诚信</strong>)<br>我做完的也都会开源，供大家下载</p>
+<p>联系方式左边有，qq/微信备注<strong>程序定制</strong>，推荐用<strong>邮箱</strong><br>写清楚你的需求(不要太过分)，推荐<strong>爬虫</strong>类的(比较拿手)，其他比较基础的也行</p>
+<p>说下制作时间吧，因为我学业压力比较大(初三)，所以时间会稍长，1~2周，只有周末才能做，寒暑假的空闲时间较多，所以急着要的别找我，也不要老是催(我好可怜的…)</p>
+<p>做好之后我会发下载链接，至于费用嘛，我会发收款码，给不给就是你的事了，放心，价格不会超过10元。<br>当然你不给也问题不大，下载链接一样会给你，至于下次会不会接你单呢，那就不好说了🤪</p>
 ]]></content>
+      <tags>
+        <tag>程序定制</tag>
+      </tags>
   </entry>
 </search>
